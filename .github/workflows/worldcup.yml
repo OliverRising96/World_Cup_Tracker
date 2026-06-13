@@ -4,7 +4,7 @@ on:
   schedule:
     # GitHub Actions cron runs in UTC. 07:00 UTC = 08:00 UK time during
     # British Summer Time (which covers the whole tournament).
-    - cron: "0 7 * * *"
+    - cron: "0 11 * * *"
   workflow_dispatch: {}   # lets you trigger a run manually from the Actions tab
 
 jobs:
